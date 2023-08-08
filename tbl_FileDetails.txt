@@ -20,3 +20,10 @@ CREATE TABLE [dbo].[tbl_FileDetails](
 GO
 
 
+select * from [dbo].[tbl_FileDetails]
+
+exec [dbo].[uspGetFileDetails] ipl
+
+select * from [dbo].tbl_FIFAData
+
+truncate table [dbo].[tbl_FIFAData]
